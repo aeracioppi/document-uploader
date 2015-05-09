@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.manager.document.model">
+    <class name="Document" table="document">
+        <id name="documentID" column="document_id">
+            <generator class="native"/>
+        </id>
+        <property name="document_name" column="document_name" />
+        <property name="document_upload" column="document_upload" />
+        <property name="document_type" column="document_type" />
+        <property name="document_owner" column="document_owner" />
+        <property name="document_file" column="document_file" />
+        <property name="document_desc" column="document_desc" />
+    </class> 
+</hibernate-mapping>

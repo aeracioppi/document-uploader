@@ -1,0 +1,41 @@
+*{   
+    font-family: Arial;
+    margin:auto;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+    display:block;
+    color: #666666;
+    border-radius: 5px;
+}
+
+title{
+	display: none;
+}
+
+html{
+    background-color: #CCCCCC;
+}
+label, h1{ text-align: center;
+        }
+
+label{ font-size: 80%;}
+
+
+section{ margin-top: 10%;}
+
+h1{ margin-bottom: 2%;
+    font-size: 100%;}
+
+button{
+    background-color: #FF9833;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
